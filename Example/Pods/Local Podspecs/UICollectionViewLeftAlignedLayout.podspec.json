@@ -14,7 +14,9 @@
   },
   "social_media_url": "http://twitter.com/mokagio",
   "platforms": {
-    "ios": "6.0"
+    "ios": "6.0",
+	"tvos" : "9.0"
+
   },
   "source": {
     "git": "https://github.com/mokagio/UICollectionViewLeftAlignedLayout.git",
