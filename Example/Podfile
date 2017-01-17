@@ -1,5 +1,5 @@
 platform :ios, "6.0"
-platform :tvois, "9.0"
+platform :tvos, "9.0"
 
 target :Example do
   pod 'UICollectionViewLeftAlignedLayout', :path => '..'
