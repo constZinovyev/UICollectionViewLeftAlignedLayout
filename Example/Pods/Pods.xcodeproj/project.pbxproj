@@ -15,6 +15,8 @@
 		4B00B42F0ED9ABDE524E1F08 /* UIFont+OpenSans.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A3B94A6F7AAE3B9D890A4AA /* UIFont+OpenSans.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		519DF5AD48D954336A99994D /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 955B878CA27E5B7AFBFF2775 /* OpenSans-Bold.ttf */; };
 		56C1F62517504A540623368A /* UIFont+OpenSans.h in Headers */ = {isa = PBXBuildFile; fileRef = 091430CE0B89DBED8D47EBA8 /* UIFont+OpenSans.h */; };
+		664FD66C1E2E58DA008095F3 /* Pods_Example_TVos.m in Sources */ = {isa = PBXBuildFile; fileRef = 664FD66B1E2E58DA008095F3 /* Pods_Example_TVos.m */; };
+		664FD66D1E2E58DA008095F3 /* Pods_Example_TVos.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 664FD66A1E2E58DA008095F3 /* Pods_Example_TVos.h */; };
 		737CD8B2ABC4C4057C2DB451 /* OpenSans-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0DCA5863A59AB5815EF15DE0 /* OpenSans-ExtraBoldItalic.ttf */; };
 		75BE6AEB59EB840D3B7288E1 /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 88E52EC0D072289762A16D4C /* OpenSans-Light.ttf */; };
 		7A7C66834BF036DB2B6B236F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33BFFD95235C1CAA24348A9F /* Foundation.framework */; };
@@ -66,6 +68,19 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		664FD6661E2E58DA008095F3 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				664FD66D1E2E58DA008095F3 /* Pods_Example_TVos.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		05E5F2945736E4AB42D6FE68 /* Pods-Example-UICollectionViewLeftAlignedLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example-UICollectionViewLeftAlignedLayout.xcconfig"; sourceTree = "<group>"; };
 		071CC0E5F246C436FA182281 /* Pods-Example-UICollectionViewLeftAlignedLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Example-UICollectionViewLeftAlignedLayout-dummy.m"; sourceTree = "<group>"; };
@@ -91,6 +106,9 @@
 		5FC2FB0CFDFC18166BE6670C /* libPods-Example-OpenSans.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Example-OpenSans.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		63BC9886F9994635A2AFC018 /* Pods-Example-UIColor+FlatColors-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example-UIColor+FlatColors-Private.xcconfig"; sourceTree = "<group>"; };
 		65A28F8FFADFBDF6E3FF7758 /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
+		664FD6681E2E58DA008095F3 /* libPods-Example-TVos.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Example-TVos.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		664FD66A1E2E58DA008095F3 /* Pods_Example_TVos.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Pods_Example_TVos.h; sourceTree = "<group>"; };
+		664FD66B1E2E58DA008095F3 /* Pods_Example_TVos.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pods_Example_TVos.m; sourceTree = "<group>"; };
 		744CA8A2C61576C32158AA17 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "OpenSans-Regular.ttf"; path = "Fonts/OpenSans-Regular.ttf"; sourceTree = "<group>"; };
 		7AA5AF716002CDC5F6F0166A /* Pods-Example-OpenSans-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Example-OpenSans-prefix.pch"; sourceTree = "<group>"; };
 		80BFE2D09A79B61D22502278 /* OpenSans-LightItalic.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "OpenSans-LightItalic.ttf"; path = "Fonts/OpenSans-LightItalic.ttf"; sourceTree = "<group>"; };
@@ -114,6 +132,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		664FD6651E2E58DA008095F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7BA1F74BC886CA8EE1065429 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -219,6 +244,15 @@
 			name = Resources;
 			sourceTree = "<group>";
 		};
+		664FD6691E2E58DA008095F3 /* Pods-Example-TVos */ = {
+			isa = PBXGroup;
+			children = (
+				664FD66A1E2E58DA008095F3 /* Pods_Example_TVos.h */,
+				664FD66B1E2E58DA008095F3 /* Pods_Example_TVos.m */,
+			);
+			path = "Pods-Example-TVos";
+			sourceTree = "<group>";
+		};
 		75D5037C1AADB571600FBB67 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -250,6 +284,7 @@
 				5FC2FB0CFDFC18166BE6670C /* libPods-Example-OpenSans.a */,
 				57457158E628F802A7B6395D /* libPods-Example-UICollectionViewLeftAlignedLayout.a */,
 				A30FB7FBD4EB83E4F0A0A174 /* libPods-Example-UIColor+FlatColors.a */,
+				664FD6681E2E58DA008095F3 /* libPods-Example-TVos.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -268,6 +303,7 @@
 			children = (
 				24221610431C52C5D34D735E /* Podfile */,
 				DB953F4C1B987E21C36F4CB9 /* Development Pods */,
+				664FD6691E2E58DA008095F3 /* Pods-Example-TVos */,
 				AE1DA2D8E2BD7079FA55E817 /* Frameworks */,
 				DF86003E4691F964EA42717D /* Pods */,
 				8408B15C73F2229E73C3E00C /* Products */,
@@ -399,6 +435,23 @@
 			productReference = AD1D2EB8DE7ED02D08FEA000 /* libPods-Example.a */;
 			productType = "com.apple.product-type.library.static";
 		};
+		664FD6671E2E58DA008095F3 /* Pods-Example-TVos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 664FD6701E2E58DA008095F3 /* Build configuration list for PBXNativeTarget "Pods-Example-TVos" */;
+			buildPhases = (
+				664FD6641E2E58DA008095F3 /* Sources */,
+				664FD6651E2E58DA008095F3 /* Frameworks */,
+				664FD6661E2E58DA008095F3 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Example-TVos";
+			productName = "Pods-Example-TVos";
+			productReference = 664FD6681E2E58DA008095F3 /* libPods-Example-TVos.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 		86020060F6B0CA56E1AD9B59 /* Pods-Example-OpenSans-OpenSans */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5AFAF13DB54C8BB20553497F /* Build configuration list for PBXNativeTarget "Pods-Example-OpenSans-OpenSans" */;
@@ -458,6 +511,13 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0640;
+				TargetAttributes = {
+					664FD6671E2E58DA008095F3 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = UM246WFXVS;
+						ProvisioningStyle = Automatic;
+					};
+				};
 			};
 			buildConfigurationList = 087D8FC7A8DA5F95CDD47DD5 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -476,6 +536,7 @@
 				86020060F6B0CA56E1AD9B59 /* Pods-Example-OpenSans-OpenSans */,
 				B91EDE3BEF5062F460EE9623 /* Pods-Example-UICollectionViewLeftAlignedLayout */,
 				0E1EE87C44D5432C4FF11A8F /* Pods-Example-UIColor+FlatColors */,
+				664FD6671E2E58DA008095F3 /* Pods-Example-TVos */,
 			);
 		};
 /* End PBXProject section */
@@ -524,6 +585,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5A66A3846B16E99D4ABC729 /* Pods-Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		664FD6641E2E58DA008095F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				664FD66C1E2E58DA008095F3 /* Pods_Example_TVos.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -642,6 +711,56 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		664FD66E1E2E58DA008095F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = UM246WFXVS;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TVOS_DEPLOYMENT_TARGET = 10.1;
+			};
+			name = Debug;
+		};
+		664FD66F1E2E58DA008095F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = UM246WFXVS;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Release;
 		};
@@ -845,6 +964,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		664FD6701E2E58DA008095F3 /* Build configuration list for PBXNativeTarget "Pods-Example-TVos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				664FD66E1E2E58DA008095F3 /* Debug */,
+				664FD66F1E2E58DA008095F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 		B29D553ACB5C89694412C45F /* Build configuration list for PBXNativeTarget "Pods-Example-OpenSans" */ = {
 			isa = XCConfigurationList;
